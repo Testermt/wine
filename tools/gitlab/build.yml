@@ -1,5 +1,4 @@
 # CI script for building Wine
-
 .wine-build:
   stage: build
   image: $CI_REGISTRY/wine/wine:debian-bookworm
